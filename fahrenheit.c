@@ -1,21 +1,22 @@
 #include <stdio.h>
 
-int main () {
+int main () 
+{
 
   //variable declarations
   float fahrenheit;
   float celsius;
 
-  //input: ask for the fahrenhiet
-  printf("Enter temperature in fahrenheit: ")
-    scanf("%f," &fahrenheit)
-    printf("fahrenhiet = %f," fahrenhiet);
+  //input: ask for the fahrenheit
+  printf("Enter temperature in fahrenheit: ");
+    scanf("%f", &fahrenheit);
+    printf("fahrenheit = %f", fahrenheit);
 
   //process: conversion of fahrenheit to celsius
-  celsius = (fahrenhiet - 32) * 5 / 9;
+  celsius = (fahrenheit - 32) * 5 / 9;
 
   //output: display the temperature in celsius
-  printf("\nCelsius = %f," celsius;
+  printf("\nCelsius = %f", celsius);
 
-  return 1;
+  return 0;
 }
